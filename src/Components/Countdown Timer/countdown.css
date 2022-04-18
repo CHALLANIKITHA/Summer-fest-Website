@@ -1,0 +1,15 @@
+.time-container{
+  font-size: 27px;
+  color: #FF8918;
+  font-weight: 600;
+}
+.timer-heading{
+  text-align: center;
+  margin-left: 8rem;
+}
+
+.timer-icon {
+  height: 1.3em;
+  width: 1.3em;
+}
+
