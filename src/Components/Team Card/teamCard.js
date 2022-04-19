@@ -9,7 +9,7 @@ import { Teammembers } from "./teammember";
 export class TeamCard extends Component{
   render(){
   return (
-    <div className="card m-3 bg-transparent border-0 w-25">
+    <div className="card m-3 bg-transparent border-0 w-75">
       <div class="bg-white p-3 border-curve">
         <div className="card-content border border-danger border-1 border-curve">
           <div className="d-flex justify-content-center align-items-center">
