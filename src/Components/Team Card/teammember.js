@@ -11,15 +11,17 @@ export class Teammembers extends Component{
     }
     render(){
         return(
-            <div>
-            {this.state.counters.map((counter) => (
-                <div>
-                  <TeamCard
-                     key={counter.id}
-                     id={counter.id}
-                  ></TeamCard>
+            <div class="container">
+              <div class="row">
+                {this.state.counters.map((counter) => (
+                    <div class="col-lg-4>
+                      <TeamCard
+                         key={counter.id}
+                         id={counter.id}
+                      ></TeamCard>
+                    </div>
+                ))}
                 </div>
-            ))}
             </div>
         );
     }
