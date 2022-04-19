@@ -14,7 +14,7 @@ export class Teammembers extends Component{
             <div class="container">
               <div class="row">
                 {this.state.counters.map((counter) => (
-                    <div class="col-lg-4>
+                    <div class="col-lg-4">
                       <TeamCard
                          key={counter.id}
                          id={counter.id}
